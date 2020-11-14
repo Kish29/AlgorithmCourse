@@ -23,14 +23,16 @@ void Solution::findTwoPrimes(int loop, const int *a) {
     initPrimes();
     int p, l;
     for (int i = 0; i < loop; ++i) {
-        p = 2, l = a[i];
+        p = 2, l = a[i] - 2;
         /* 注意是 <= */
         while (p <= l) {
-            if (primes_bool[p] && primes_bool[l - p]) {
-                printf("%d %d\n", p, l - p);
+            if (primes_bool[p] && primes_bool[l]) {
+                printf("%d %d\n", p, l);
                 break;
-            } else
+            } else {
+                l--;
                 p++;
+            }
         }
         /* 未找到*/
         if (p > l)
