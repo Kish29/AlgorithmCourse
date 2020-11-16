@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/asus/CLionProjects/AlgorithmCourse/Homework_3/Solution.cpp
+Solution.h
+C:/Users/asus/CLionProjects/AlgorithmCourse/Homework_3/Solution.h
+
+C:/Users/asus/CLionProjects/AlgorithmCourse/Homework_3/Solution.h
+string
+C:/Users/asus/CLionProjects/AlgorithmCourse/Homework_3/string
+
+C:/Users/asus/CLionProjects/AlgorithmCourse/Homework_3/test.cpp
+Solution.h
+C:/Users/asus/CLionProjects/AlgorithmCourse/Homework_3/Solution.h
+iostream
+C:/Users/asus/CLionProjects/AlgorithmCourse/Homework_3/iostream
+
