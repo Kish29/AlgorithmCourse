@@ -1,3 +1,0 @@
-C:/Users/asus/CLionProjects/AlgorithmCourse/cmake-build-debug/CMakeFiles/AlgorithmCourse.dir
-C:/Users/asus/CLionProjects/AlgorithmCourse/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/asus/CLionProjects/AlgorithmCourse/cmake-build-debug/CMakeFiles/rebuild_cache.dir
