@@ -7,6 +7,6 @@
 int main() {
     int n;
     scanf("%d", &n);
-    printConsistentFactors(n);
+    printConsistentFactors(n)k'k;
     return 0;
 }
