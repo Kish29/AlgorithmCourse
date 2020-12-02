@@ -1,3 +1,0 @@
-D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/CMakeFiles/AlgorithmCourse.dir
-D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/CMakeFiles/rebuild_cache.dir
