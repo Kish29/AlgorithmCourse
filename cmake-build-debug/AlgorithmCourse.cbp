@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AlgorithmCourse"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AlgorithmCourse">
+				<Option output="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/AlgorithmCourse.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 AlgorithmCourse"/>
+					<CompileFile command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AlgorithmCourse/fast">
+				<Option output="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/AlgorithmCourse.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 AlgorithmCourse/fast"/>
+					<CompileFile command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/EnvironmentSoftwares/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/PracticeProjects/CPlusPlus/AlgorithmCourse/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/Homework_9/MyAlgorithm.cpp">
+			<Option target="AlgorithmCourse"/>
+		</Unit>
+		<Unit filename="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/Homework_9/MyAlgorithm.h">
+			<Option target="AlgorithmCourse"/>
+		</Unit>
+		<Unit filename="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/Homework_9/test.cpp">
+			<Option target="AlgorithmCourse"/>
+		</Unit>
+		<Unit filename="D:/PracticeProjects/CPlusPlus/AlgorithmCourse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

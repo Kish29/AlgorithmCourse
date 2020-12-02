@@ -36,9 +36,10 @@ void findMaxAndSetNull(int *a, int len) {
     a[i] = -1;
 }
 
+int factors[65555];
+
 void findMaxProductInFactor(int num) {
     /* 1+2+3+...+141 > 10000*/
-    int factors[150];
     /* 拆分出所有因子 */
     int k = 2;
     int i = 0;

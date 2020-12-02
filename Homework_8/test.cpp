@@ -8,6 +8,10 @@ int main() {
     int num;
     scanf("%d", &num);
     findMaxProductInFactor(num);
+    printf("\n");
+    for (int i = 1; i <= 100; ++i) {
+        printf("%d-", i);
+    }
     return 0;
 }
 
