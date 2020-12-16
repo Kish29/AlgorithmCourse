@@ -4,8 +4,9 @@
 
 #include "cmath"
 #include "cstdio"
+#include "sys/time.h"
 
-const float precision = 1e-6;
+const float precision = 1e-11;
 
 double newTonRoot(double);
 
@@ -27,12 +28,13 @@ double newTonRoot(double num) {
 #include "ctime"
 
 int main() {
-    int num = 3;
-    clock_t start, end;
-    start = clock();
+    int num = 3000000;
+    timeval start{}, end{};
+    gettimeofday(&start, nullptr);
     double res = newTonRoot(num);
-    end = clock();
-    printf("res->%.20f\nduration time->%.20fms", res, end - start);
+    gettimeofday(&end, nullptr);
+    long us = 1000000 * (end.tv_sec - start.tv_sec) + end.tv_usec - start.tv_usec;
+    printf("res->%.20f\nduration time->%ldus", res, us);
     return 0;
 }
 

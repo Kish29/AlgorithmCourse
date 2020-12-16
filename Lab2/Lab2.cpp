@@ -32,6 +32,7 @@ void swap(int *array, int lo, int hi) {
     array[lo] = tmp;
 }
 
+/* 存储压缩质量之间的差值 */
 int gap[max_n];
 
 int getMinCompressSong() {
@@ -48,7 +49,7 @@ int getMinCompressSong() {
             return -1;
         gap[i] = origin_size - after_size;
     }
-
+    /* 排序，并且贪心递增 */
     quickSort(gap, 0, song_n - 1);
     for (int i = 0; i < song_n; ++i) {
         if (tmp + gap[i] <= disk_size) {
@@ -72,6 +73,7 @@ void getMaxCash() {
     }
 }
 
+/* 动态规划数组 */
 int dp[max_n];
 
 int doSearch(const int *a, int lo, int hi) {
@@ -82,7 +84,7 @@ int doSearch(const int *a, int lo, int hi) {
     return dp[hi];
 }
 
-int max(int lo, int hi) {
+inline int max(int lo, int hi) {
     return lo > hi ? lo : hi;
 }
 
