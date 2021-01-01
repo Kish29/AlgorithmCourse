@@ -13,7 +13,7 @@ int getDiceNum(int n) {
     int dice = 0;
     /* 计算摇到1~n-1步的情况*/
     for (int i = 1; i <= n - 1; i++) {
-        dice += getDiceNum(i);
+        dice += getDiceNum(n - i);
     }
     /* 一步到位的方法一次 */
     return dice + 1;
